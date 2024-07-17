@@ -9,7 +9,7 @@ export function Banner() {
         <span className="text-sm text-neutral-50 font-semibold  md:text-2xl">
           Desenvolvedor Freelancer
         </span>
-        <p className="text-neutral-50 font-light max-w-sm md:max-w-2xl">
+        <p className="text-neutral-50 font-light text-justify max-w-sm md:max-w-2xl">
           Olá, tudo bem? Me chamo Ronald Santos, tenho 22 anos e sou{" "}
           <strong className="font-bold">Desenvolvedor Front-end</strong>,
           trabalho com as linguagens e stacks mais atuais do mercado. Possuo
@@ -22,7 +22,7 @@ export function Banner() {
         </div>
       </div>
       <div>
-        <img src={photo} alt="foto de Ronald" className="w-52  md:w-auto"/>
+        <img src={photo} alt="foto de Ronald" className="w-56  md:w-auto"/>
       </div>
     </div>
   );
