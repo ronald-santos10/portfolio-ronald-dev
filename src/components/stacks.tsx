@@ -1,12 +1,7 @@
 import {
-  SiBootstrap,
-  SiCss3,
-  SiHtml5,
   SiJavascript,
   SiNextdotjs,
-  SiNodedotjs,
   SiReact,
-  SiSass,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -14,70 +9,36 @@ import { IconContext } from "react-icons";
 
 export function Stacks() {
   return (
-    <div className="flex flex-col gap-7">
-      <h3 className="text-neutral-50 text-sm md:text-2xl">
-        Minhas Stacks e Tecnologias:
-      </h3>
-      <div className="flex items-center gap-5 md:gap-14">
-        <IconContext.Provider
-          value={{ className: "text-primary size-32 md:size-14" }}
-        >
+    <div className="flex gap-4 flex-wrap justify-center  md:justify-start">
+      <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2 cursor-pointer ">
+        <IconContext.Provider value={{ className: "text-primary size-4" }}>
           <SiJavascript />
         </IconContext.Provider>
-
-        <IconContext.Provider
-          value={{ className: "text-primary size-32 md:size-14" }}
-        >
+        <p className="text-neutral-50 text-xs">Javascript</p>
+      </div>
+      <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2 cursor-pointer ">
+        <IconContext.Provider value={{ className: "text-primary size-4" }}>
           <SiTypescript />
         </IconContext.Provider>
-
-        <IconContext.Provider
-          value={{ className: "text-primary size-32 md:size-14" }}
-        >
+        <p className="text-neutral-50 text-xs">Typescript</p>
+      </div>
+      <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2 cursor-pointer ">
+        <IconContext.Provider value={{ className: "text-primary size-4" }}>
           <SiReact />
         </IconContext.Provider>
-
-        <IconContext.Provider
-          value={{ className: "text-primary size-32 md:size-14" }}
-        >
+        <p className="text-neutral-50 text-xs">React</p>
+      </div>
+      <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2 cursor-pointer ">
+        <IconContext.Provider value={{ className: "text-primary size-4" }}>
           <SiNextdotjs />
         </IconContext.Provider>
-
-        <IconContext.Provider
-          value={{ className: "text-primary size-32 md:size-14" }}
-        >
+        <p className="text-neutral-50 text-xs">Nextjs</p>
+      </div>
+      <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2 cursor-pointer ">
+        <IconContext.Provider value={{ className: "text-primary size-4" }}>
           <SiTailwindcss />
         </IconContext.Provider>
-
-        <IconContext.Provider
-          value={{ className: "text-primary size-32 md:size-14" }}
-        >
-          <SiNodedotjs />
-        </IconContext.Provider>
-
-        <IconContext.Provider
-          value={{ className: "text-primary size-32 md:size-14" }}
-        >
-          <SiHtml5 />
-        </IconContext.Provider>
-
-        <IconContext.Provider
-          value={{ className: "text-primary size-32 md:size-14" }}
-        >
-          <SiCss3 />
-        </IconContext.Provider>
-
-        <IconContext.Provider
-          value={{ className: "text-primary size-32 md:size-14" }}
-        >
-          <SiSass />
-        </IconContext.Provider>
-
-        <IconContext.Provider
-          value={{ className: "text-primary size-32 md:size-14" }}
-        >
-          <SiBootstrap />
-        </IconContext.Provider>
+        <p className="text-neutral-50 text-xs">Tailwind</p>
       </div>
     </div>
   );

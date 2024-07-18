@@ -1,16 +1,18 @@
 import { Banner } from "./components/banner";
 import { Container } from "./components/container";
 import { Header } from "./components/header";
-import { Stacks } from "./components/stacks";
+import { Projects } from "./components/projects";
 
 export function App() {
   return (
     <Container>
-      <Header/>
-      <div className="mx-auto max-w-7xl">
-        <Banner/>
-        <Stacks/>
-      </div>
+        <header>
+        <Header />
+      </header>
+      <main className="mx-auto max-w-7xl px-5  md:px-0">
+          <Banner />
+        <Projects />
+      </main>
     </Container>
   );
 }
