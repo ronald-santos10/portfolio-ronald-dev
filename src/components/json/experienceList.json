@@ -1,10 +1,23 @@
 [
      {
         "id": 1,
-        "image": "../../public/images/companies/ithinkcreative.svg",
-        "position": "Desenvolvedor Web",
-        "companie": "I Think Creative",
-        "alt": "I Think Creative",
-        "description": "Desenvolvimento e manutenção de interfaces utilizando Wordpress, Javascript, CSS, HTML e banco de dados."
+        "title": "Análise e Desenvolvimento de Sistemas",
+        "companie": "Centro Universitário ages",
+        "year": "2022-2024",
+        "description": "Graduação Tecnóloga."
+    },
+    {
+        "id": 2,
+        "title": "Gestão e qualidade de software",
+        "companie": "Centro Universitário ages",
+        "year": "2023",
+        "description": "Gestão e manutensão de software."
+    },
+    {
+        "id": 3,
+        "title": "NLW Journey - Reactjs",
+        "companie": "Rocketseat",
+        "year": "2024",
+        "description": "Desenvolvimento completo de um planner de viagem."
     }
 ]
