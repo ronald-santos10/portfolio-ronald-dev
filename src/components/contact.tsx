@@ -13,7 +13,7 @@ export function Contact() {
       <div className="flex items-center justify-center">
         <Opacity delay={0.1}>
           <img
-            src="../../public/images/contact-image.svg"
+            src="../../public/images/contact-image.png"
             alt="Contact Image"
             className="w-60  md:w-auto"
           />
