@@ -3,6 +3,14 @@ import photo from "../../public/images/photo.png";
 import { Stacks } from "./stacks";
 
 export function Banner() {
+  const downloadCv = () => {
+    const link = document.createElement("a");
+    link.href = "../../public/cv/cv.docx"; // 
+    link.download = "cv.docx"; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className="my-16 flex flex-col-reverse items-center justify-between gap-10  md:gap-56 md:flex-row md:my-28">
       <div className="flex flex-col gap-6 items-center  md:items-start md:gap-7">
@@ -24,7 +32,9 @@ export function Banner() {
         </p>
         <div className="flex items-center gap-8">
           <Button variant="primary">Entre em contato</Button>
-          <Button variant="secundary">Download CV</Button>
+          <Button onClick={downloadCv} variant="secundary">
+            Download CV
+          </Button>
         </div>
         <Stacks />
       </div>
