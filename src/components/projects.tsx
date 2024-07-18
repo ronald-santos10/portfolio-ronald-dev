@@ -1,5 +1,5 @@
 import { Button } from "./button";
-import data from "./projectList.json";
+import data from "./json/projectList.json";
 
 export function Projects() {
   return (
