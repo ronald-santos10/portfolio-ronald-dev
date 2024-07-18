@@ -1,14 +1,11 @@
-import { Opacity } from "./animations/opacity";
 import data from "./json/experienceList.json";
 
 export function Experience() {
   return (
     <div id="certification-section" className="my-20 flex flex-col gap-7  md:my-32">
-      <Opacity delay={0.1}>
         <h3 className="text-neutral-50 text-xl text-center  md:text-2xl">
           Qualificações e certificados
         </h3>
-      </Opacity>
       <div className="h-px bg-neutral-800"></div>
       <ul className="flex flex-wrap mx-auto gap-7 justify-start items-center">
         {data.map((item) => (
