@@ -4,6 +4,7 @@ import { Container } from "./components/container";
 import { Experience } from "./components/experience";
 import { Header } from "./components/header";
 import { Projects } from "./components/projects";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 
 export function App() {
@@ -22,6 +23,7 @@ export function App() {
         <h3 className="text-xs text-neutral-50 font-semibold text-center">Feito por <span className="text-primary">Ronald Santos</span>
         </h3>
       </footer>
+      <SpeedInsights />
     </Container>
   );
 }
