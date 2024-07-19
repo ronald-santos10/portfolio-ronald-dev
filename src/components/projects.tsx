@@ -4,9 +4,9 @@ import data from "./json/projectList.json";
 
 export function Projects() {
   return (
-    <div id="projects-section" className="my-20 flex flex-col gap-7  md:my-32">
+    <div id="projects-section" className="my-20 flex flex-col gap-7  md:my-40">
       <h3 className="text-neutral-50 text-xl text-center  md:text-2xl md:text-start">
-          Qualificações e certificados
+          Projetos em destaque
         </h3>
       <div className="h-px bg-neutral-800"></div>
 

@@ -3,20 +3,23 @@ import { MdOutlineEmail } from "react-icons/md";
 import { IconContext } from "react-icons";
 import { Reveal } from "./animations/reveal";
 import { Opacity } from "./animations/opacity";
+import contactImage from '../../public/images/contact-image.png'
 
 export function Contact() {
   return (
     <div
       id="contact-section"
-      className="my-20 flex-col-reverse justify-center items-center gap-7  md:flex md:flex-row  md:my-32"
+      className="my-20 flex-col-reverse justify-center items-center gap-7  md:flex md:flex-row  md:my-40"
     >
       <div className="flex items-center justify-center">
         <Opacity delay={0.1}>
-          <img
-            src="../../public/images/contact-image.png"
-            alt="Contact Image"
-            className="w-60  md:w-auto"
-          />
+          <a href="https://storyset.com/business">
+            <img
+              src={contactImage}
+              alt="Contact Image"
+              className="w-60  md:w-auto"
+            />
+          </a>
         </Opacity>
       </div>
 

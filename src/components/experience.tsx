@@ -2,7 +2,7 @@ import data from "./json/experienceList.json";
 
 export function Experience() {
   return (
-    <div id="certification-section" className="my-20 flex flex-col gap-7  md:my-32">
+    <div id="certification-section" className="my-20 flex flex-col gap-7  md:my-40">
         <h3 className="text-neutral-50 text-xl text-center  md:text-2xl">
           Qualificações e certificados
         </h3>
