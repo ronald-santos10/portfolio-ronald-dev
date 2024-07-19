@@ -5,6 +5,7 @@ import { Experience } from "./components/experience";
 import { Header } from "./components/header";
 import { Projects } from "./components/projects";
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 
 
 export function App() {
@@ -24,6 +25,7 @@ export function App() {
         </h3>
       </footer>
       <SpeedInsights />
+      <Analytics />
     </Container>
   );
 }
