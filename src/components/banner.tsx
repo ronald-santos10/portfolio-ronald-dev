@@ -3,12 +3,13 @@ import photo from "../../public/images/photo.png";
 import { Stacks } from "./stacks";
 import { Reveal } from "./animations/reveal";
 import { Opacity } from "./animations/opacity";
+import cv from "../../public/cv/cv.pdf"
 
 export function Banner() {
   const downloadCv = () => {
     const link = document.createElement("a");
-    link.href = "../../public/cv/cv.docx"; //
-    link.download = "cv.docx";
+    link.href = cv; //
+    link.download = cv;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
