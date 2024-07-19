@@ -24,7 +24,7 @@ export function Projects() {
                 <h2 className="text-primary text-2xl font-bold">
                   {item.title}
                 </h2>
-                <p className="text-neutral-50 text-sm font-light text-justify max-w-sm md:max-w-xl">
+                <p className="text-neutral-50 text-sm font-light text-justify min-h-0 md:min-h-20 max-w-sm md:max-w-xl">
                   {item.description}
                 </p>
                 <div className="flex items-center gap-8">
