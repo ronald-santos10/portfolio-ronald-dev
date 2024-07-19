@@ -13,7 +13,7 @@ export function Contact() {
     >
       <div className="flex items-center justify-center">
         <Opacity delay={0.1}>
-          <a href="https://storyset.com/business">
+          <a href="https://storyset.com/business" target="_blank">
             <img
               src={contactImage}
               alt="Contact Image"
