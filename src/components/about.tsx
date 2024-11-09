@@ -1,5 +1,6 @@
 import { Opacity } from "./animations/opacity";
 import { Reveal } from "./animations/reveal";
+import  photo from "../../public/images/foto-ronald.webp"
 
 export const About = () => {
   return (
@@ -30,7 +31,7 @@ export const About = () => {
       <div>
         <Opacity>
           <img
-            src="../../public/images/foto-ronald.webp"
+            src={photo}
             alt="Desenvolvedor Front-end e Web Designer"
             className="w-72  md:w-auto"
           />
