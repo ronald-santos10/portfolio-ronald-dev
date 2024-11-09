@@ -4,16 +4,16 @@ export const Services = () => {
       id="service-section"
       className="flex flex-col gap-8 md:gap-16"
     >
-      <h3 className="text-neutral-50 text-3xl  md:text-4xl md:text-start">
+      <h2 className="text-neutral-50 text-3xl  md:text-4xl md:text-start">
         Meus <span className="text-primary font-bold">serviços</span>
-      </h3>
+      </h2>
 
       <div className="overflow-x-auto">
         <table className="min-w-full">
           <tbody>
             <tr className="flex flex-col md:table-row">
               <td className="text-lg md:text-2xl font-medium text-neutral-50 py-2 md:py-4 md:border-b md:border-neutral-900 text-left  md:w-1/2">
-                <h2>Design de Sites e Apps</h2>
+                <h3>Design de Sites e Apps</h3>
               </td>
               <td className="text-base md:text-xl font-light text-neutral-50 py-2 md:py-4 border-b border-neutral-900 text-left md:w-1/2">
                 <p>
@@ -26,7 +26,7 @@ export const Services = () => {
             </tr>
             <tr className="flex flex-col md:table-row">
               <td className="text-lg md:text-2xl font-medium text-neutral-50 py-2 md:py-4 md:border-b md:border-neutral-900 text-left  md:w-1/2">
-                <h2>Desenvolvimento Web</h2>
+                <h3>Desenvolvimento Web</h3>
               </td>
               <td className="text-base md:text-xl font-light text-neutral-50 py-2 md:py-4 border-b border-neutral-900 text-left md:w-1/2">
                 <p>
@@ -40,7 +40,7 @@ export const Services = () => {
             </tr>
             <tr className="flex flex-col md:table-row">
               <td className="text-lg md:text-2xl font-medium text-neutral-50 py-2 md:py-4 md:border-b md:border-neutral-900 text-left  md:w-1/2">
-                <h2>Identidade Visual</h2>
+                <h3>Identidade Visual</h3>
               </td>
               <td className="text-base md:text-xl font-light text-neutral-50 py-2 md:py-4 border-b border-neutral-900 text-left md:w-1/2">
                 <p>

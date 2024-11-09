@@ -9,10 +9,10 @@ import appMobile from "../../public/images/work/app-mobile.webp";
 export function Works() {
   return (
     <div id="work-section" className="flex flex-col gap-8 md:gap-16">
-      <h3 className="text-neutral-50 text-3xl  md:text-4xl md:text-start">
+      <h2 className="text-neutral-50 text-3xl  md:text-4xl md:text-start">
         Meus trabalhos em{" "}
         <span className="text-primary font-bold">destaque</span>
-      </h3>
+      </h2>
 
       <div className="flex flex-col gap-4 md:gap-8">
         <div>
