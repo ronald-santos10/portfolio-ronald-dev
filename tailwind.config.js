@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#00A4FF'
+        primary: '#00A4FF',
+        black: 'rgba(0, 0, 0, 0.89)',
       },
       fontFamily: {
         sans: 'Archivo',

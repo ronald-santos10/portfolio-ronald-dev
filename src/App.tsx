@@ -1,31 +1,32 @@
 import { Banner } from "./components/banner";
 import { Contact } from "./components/contact";
-import { Container } from "./components/container";
-import { Experience } from "./components/experience";
+import { Container } from "./components/ui/container";
 import { Header } from "./components/header";
-import { Projects } from "./components/projects";
-import { SpeedInsights } from '@vercel/speed-insights/react';
-import { Analytics } from '@vercel/analytics/react';
-
+import { Works } from "./components/works";
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
+import { About } from "./components/about";
+import { Services } from "./components/services";
+import { Footer } from "./components/footer";
 
 export function App() {
   return (
     <Container>
+      <div className="flex flex-col gap-16 md:gap-40">
         <header>
-        <Header />
-      </header>
-      <main className="mx-auto max-w-7xl px-5  md:px-0">
+          <Header />
+        </header>
+        <main className="flex flex-col gap-20 md:gap-56 mx-auto max-w-7xl px-5  md:px-0">
           <Banner />
-        <Projects />
-        <Experience/>
-        <Contact/>
-      </main>
-      <footer className="bg-neutral-900 py-8">
-        <h3 className="text-xs text-neutral-50 font-semibold text-center">Feito por <span className="text-primary">Ronald Santos</span>
-        </h3>
-      </footer>
-      <SpeedInsights />
-      <Analytics />
+          <About />
+          <Works />
+          <Services />
+          <Contact />
+        </main>
+        <Footer />
+        <SpeedInsights />
+        <Analytics />
+      </div>
     </Container>
   );
 }

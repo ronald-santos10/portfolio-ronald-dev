@@ -5,14 +5,14 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
-import { IconContext } from "react-icons";
+import { IconContext } from "react-icons"; 
 import { Opacity } from "./animations/opacity";
 
 export function Stacks() {
   return (
-    <div className="flex gap-4 flex-wrap justify-center  md:justify-start">
+    <div className="flex gap-4 flex-wrap md:justify-start">
       <Opacity delay={0.1}>
-        <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2 cursor-pointer ">
+        <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2">
           <IconContext.Provider value={{ className: "text-primary size-4" }}>
             <SiJavascript />
           </IconContext.Provider>
@@ -20,7 +20,7 @@ export function Stacks() {
         </div>
       </Opacity>
       <Opacity delay={0.2}>
-        <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2 cursor-pointer ">
+        <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2">
           <IconContext.Provider value={{ className: "text-primary size-4" }}>
             <SiTypescript />
           </IconContext.Provider>
@@ -28,7 +28,7 @@ export function Stacks() {
         </div>
       </Opacity>
       <Opacity delay={0.3}>
-        <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2 cursor-pointer ">
+        <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2">
           <IconContext.Provider value={{ className: "text-primary size-4" }}>
             <SiReact />
           </IconContext.Provider>
@@ -36,7 +36,7 @@ export function Stacks() {
         </div>
       </Opacity>
       <Opacity delay={0.4}>
-        <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2 cursor-pointer ">
+        <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2">
           <IconContext.Provider value={{ className: "text-primary size-4" }}>
             <SiNextdotjs />
           </IconContext.Provider>
@@ -44,7 +44,7 @@ export function Stacks() {
         </div>
       </Opacity>
       <Opacity delay={0.5}>
-        <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2 cursor-pointer ">
+        <div className="flex items-center gap-2 bg-neutral-900 rounded-3xl px-4 py-2">
           <IconContext.Provider value={{ className: "text-primary size-4" }}>
             <SiTailwindcss />
           </IconContext.Provider>
