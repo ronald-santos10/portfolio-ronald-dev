@@ -23,7 +23,12 @@ export function Contact() {
         </Reveal>
         <div className="flex flex-wrap items-center justify-center gap-3  md:gap-7 md:justify-start">
           <Opacity delay={0.1}>
-            <a href="https://wa.me/5575999887328" target="_blanck">
+            <a
+              href="https://wa.me/5575999887328"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Enviar mensagem no WhatsApp para Ronald Santos"
+            >
               <div className="bg-neutral-900 border-2 border-neutral-800 rounded-lg md:rounded-2xl p-3 md:p-5">
                 <IconContext.Provider
                   value={{ className: "text-primary size-9 md:size-16" }}
@@ -36,7 +41,9 @@ export function Contact() {
           <Opacity delay={0.2}>
             <a
               href="https://www.instagram.com/ronaldd_santoss/"
-              target="_blanck"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visitar o perfil Instagram de Ronald Santos"
             >
               <div className="bg-neutral-900 border-2 border-neutral-800 rounded-lg md:rounded-2xl p-3 md:p-5">
                 <IconContext.Provider
@@ -48,7 +55,12 @@ export function Contact() {
             </a>
           </Opacity>
           <Opacity delay={0.3}>
-            <a href="mailto:ronalddesign10@gmail.com" target="_blanck">
+            <a
+              href="mailto:ronalddesign10@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Enviar um e-mail para Ronald Santos"
+            >
               <div className="bg-neutral-900 border-2 border-neutral-800 rounded-lg md:rounded-2xl p-3 md:p-5">
                 <IconContext.Provider
                   value={{ className: "text-primary size-9 md:size-16" }}
@@ -61,7 +73,9 @@ export function Contact() {
           <Opacity delay={0.4}>
             <a
               href="https://www.linkedin.com/in/ronald-santos-5774ba198/"
-              target="_blanck"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visitar o perfil LinkedIn de Ronald Santos"
             >
               <div className="bg-neutral-900 border-2 border-neutral-800 rounded-lg md:rounded-2xl p-3 md:p-5">
                 <IconContext.Provider
@@ -73,7 +87,12 @@ export function Contact() {
             </a>
           </Opacity>
           <Opacity delay={0.4}>
-            <a href="https://github.com/ronald-santos10" target="_blanck">
+            <a
+              href="https://github.com/ronald-santos10"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Ver repositório GitHub de Ronald Santos"
+            >
               <div className="bg-neutral-900 border-2 border-neutral-800 rounded-lg md:rounded-2xl p-3 md:p-5">
                 <IconContext.Provider
                   value={{ className: "text-primary size-9 md:size-16" }}
